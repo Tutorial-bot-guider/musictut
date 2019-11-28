@@ -6,8 +6,8 @@ import requests as rq
 from discord import opus
 
 
-bot = commands.Bot(command_prefix='.')
-YOUTUBE_API = 'YOUR YOUTUBE API TOKEN HERE'
+bot = commands.Bot(command_prefix='r!')
+YOUTUBE_API = 'AIzaSyBhR7PuSoNSjWShyy8Je69kJEGLOxmdNLc'
 
 
 bot.remove_command('help')
@@ -306,4 +306,4 @@ async def songs(msg):
             await bot.say("Currently no songs in queue")
 
 
-bot.run('YUR BOT TOKEN HERE')
+bot.run('NjQ5NDgyNTA0NzYzNjA0OTky.Xd9cNg.RjQkxM6JHdLNJK6cKwPNjcGaJRU')
